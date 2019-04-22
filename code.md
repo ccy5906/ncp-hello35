@@ -1,7 +1,5 @@
   ### App2
   ```C#
-  
-  /*
            var number = 100;
           // number = "100";   //이미 int형이 되어버렸기 때문에 문자열을 넣을 수 없음
 
@@ -20,9 +18,7 @@
            Console.WriteLine("this_float: " + this_float.GetType());
            Console.WriteLine("this_bool: " + this_bool.GetType());
            Console.WriteLine("this_char: " + this_char.GetType());
-           */
-
-            /*
+==================================
             Console.WriteLine("int형 최대" + int.MaxValue);
             Console.WriteLine("int형 최소" + int.MinValue);
             Console.WriteLine("long형 최대" + long.MaxValue);  //7로 끝나는데
@@ -33,23 +29,17 @@
             Console.WriteLine("double형 최소" + double.MinValue);
             Console.WriteLine("char형 최대" + char.MaxValue);  //캐릭터 문자라서
             Console.WriteLine("char형 최소" + char.MinValue);
-            */
-
-            /*
+==================================
             for(char i=char.MinValue; i<char.MaxValue; i++)
             {
                 Console.Write(i);  
             }  //문자표로 만들 수 있음 리눅스에서 돌리면 다 나오는데 윈도우라서 ??가 나옴
-            */
-
-            /*
+==================================
             char i1 = '최';
             char i2 = '지';
             char i3 = '연';
             Console.WriteLine((int) i1 + " " + (int)i2 + " " + (int)i3);
-            */
-
-            /*
+==================================
             // Literal 리터럴 
             int i_int = 100;
             long i_lng = 100L;
@@ -60,9 +50,7 @@
             i_dbl = i_flt = i_lng = i_int = i_chr;   //표현가능한 범위가 얼만큼 크냐가 중요
             // 자료형의 표현 크기 (암묵적 형변환 가능) Type Casting
             i_dbl = i_flt = i_lng = i_int = i_chr;
-            */
-
-            /*
+==================================
             string strInt = "50";
             string strLong = "20000000000"; // 200억
             string strDouble = "50.0";
@@ -86,7 +74,7 @@
             {
                 Console.WriteLine(e.Message);
             }
-            */
+==================================
 
             bool trueOrFalse = true;
            Console.WriteLine( trueOrFalse.ToString());  //출력시 첫문자가 대문자로 바뀜
